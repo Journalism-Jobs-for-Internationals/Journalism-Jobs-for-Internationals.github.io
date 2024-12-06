@@ -21,17 +21,27 @@
                 Journalism Jobs for Internationals
             </h1>
         </div>
-        <nav>
-            <ul class="w-full flex justify-center bg-slate-700 text-white flex-row py-4 space-x-4">
-                <li><a href="#" class="">Home</a></li>
-                <li><a href="#" class="">Visa Info</a></li>
-                <li><a href="#" class="">Job Opportunities</a></li>
-                <li><a href="#" class="">Resources</a></li>
-                <li><a href="#" class="">Contact Us</a></li>
-            </ul>
-        </nav>
+        
     </header>
-    
+    <nav class="sticky top-0 z-50">
+        <ul class="w-full flex justify-center bg-slate-700 text-white flex-row py-4 space-x-4">
+            <li><a href="#" class="">About Us</a></li>
+            <li class="relative group">
+                <a href="#" class="">Visa Information</a>
+                <!-- Dropdown -->
+                <ul class="absolute left-0 mt-2 hidden bg-white text-black rounded shadow-md group-hover:block"         style="transition: opacity 0.3s ease, visibility 0.3s ease;">
+                    <li><a href="#h1" class="block px-4 py-2 hover:bg-gray-200">H1B Visa</a></li>
+                    <li><a href="#o1" class="block px-4 py-2 hover:bg-gray-200">O1 Visa</a></li>
+                    <li><a href="#j1" class="block px-4 py-2 hover:bg-gray-200">J1 Visa</a></li>
+                    <li><a href="#ivisa" class="block px-4 py-2 hover:bg-gray-200">I Visa</a></li>
+                    <li><a href="#lvisa" class="block px-4 py-2 hover:bg-gray-200">L Visa</a></li>
+                </ul>
+            </li>
+            <li><a href="#" class="">Resources</a></li>
+            <li><a href="#" class="">Contact</a></li>
+        </ul>
+    </nav>
+
     <main class="flex-grow p-8 w-1/2 center px-auto mx-auto">
         <!-- About Us Section -->
         <section class="mb-12">
@@ -49,7 +59,7 @@
             <h2 class="text-3xl font-black mb-4">Visa Information</h2>
         
             <!-- H1B Visa -->
-            <div class="mb-8 border-b border-gray-300">
+            <div class="mb-8 border-b border-gray-300" id="h1">
                 <h3 class="text-2xl font-black mb-2 cursor-pointer flex justify-between items-center" onclick="toggleAccordion('h1b-content')">
                     H1B
                     <span id="h1b-icon" class="transform transition-transform">&#x25BC;</span>
@@ -108,7 +118,7 @@
             </div>
                     
             <!-- O1 Visa -->
-            <div class="mb-8 border-b border-gray-300">
+            <div class="mb-8 border-b border-gray-300" id="o1">
                 <h3 class="text-2xl font-black mb-2 cursor-pointer flex justify-between items-center" onclick="toggleAccordion('o1-content')">
                     O1
                     <span id="o1-icon" class="transform transition-transform">&#x25BC;</span>
@@ -185,7 +195,7 @@
             </div>
 
             <!-- J1 Visa -->
-            <div class="mb-8 border-b border-gray-300">
+            <div class="mb-8 border-b border-gray-300" id="j1">
                 <h3 class="text-2xl font-black mb-2 cursor-pointer flex justify-between items-center" onclick="toggleAccordion('j1-content')">
                     J1
                     <span id="j1-icon" class="transform transition-transform">&#x25BC;</span>
@@ -226,7 +236,7 @@
             </div>
 
             <!-- I Visa -->
-            <div class="mb-8 border-b border-gray-300">
+            <div class="mb-8 border-b border-gray-300" id="ivisa">
                 <h3 class="text-2xl font-black mb-2 cursor-pointer flex justify-between items-center" onclick="toggleAccordion('i-content')">
                     I Visa
                     <span id="i-icon" class="transform transition-transform">&#x25BC;</span>
@@ -268,7 +278,7 @@
             </div>
 
             <!-- L Visa -->
-            <div class="mb-8 border-b border-gray-300">
+            <div class="mb-8 border-b border-gray-300" id="lvisa">
                 <h3 class="text-2xl font-black mb-2 cursor-pointer flex justify-between items-center" onclick="toggleAccordion('l-content')">
                     L Visa
                     <span id="l-icon" class="transform transition-transform">&#x25BC;</span>
