@@ -3,12 +3,409 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coming Soon</title>
+    <meta name="description" content="An organization with the goal of helping international journalists land jobs in the US">
+    <title>Journalism Jobs for Internationals | An organization with the goal of helping international journalists land jobs in the US</title>
+    <meta property="og:title" content="Journalism Jobs for Internationals" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:description" content="An organization with the goal of helping international journalists land jobs in the US" />
+    <link rel="canonical" href="https://journalismjobsforinternationals.com/" />
+    <meta property="og:url" content="https://journalismjobsforinternationals.com/" />
+    <meta property="og:site_name" content="Journalism Jobs for Internationals" />
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gradient-to-r from-teal-100 to-blue-100 flex items-center justify-center h-screen">
-    <div class="text-center">
-        <h1 class="text-4xl md:text-6xl font-bold text-gray-800">Coming Soon</h1>
-    </div>
+<body>
+    <header class="bg-white w-full text-black h-auto">
+        <div class="flex flex-row w-9/12 px-auto mx-auto justify-center">
+            <img class="w-40" src="images/jjfiLogo.png"/>
+            <h1 class="font-bold uppercase text-2xl place-content-center p-4">
+                Journalism Jobs for Internationals
+            </h1>
+        </div>
+        
+    </header>
+    <nav class="sticky top-0 z-50">
+        <ul class="w-full flex justify-center bg-slate-700 text-white flex-row py-4 space-x-4">
+            <li><a href="#" class="">About Us</a></li>
+            <li class="relative group">
+                <a href="#" class="">Visa Information</a>
+                <!-- Dropdown -->
+                <ul class="absolute left-0 mt-2 hidden bg-white text-black rounded shadow-md group-hover:block"         style="transition: opacity 0.3s ease, visibility 0.3s ease;">
+                    <li><a href="#h1" class="block px-4 py-2 hover:bg-gray-200">H1B Visa</a></li>
+                    <li><a href="#o1" class="block px-4 py-2 hover:bg-gray-200">O1 Visa</a></li>
+                    <li><a href="#j1" class="block px-4 py-2 hover:bg-gray-200">J1 Visa</a></li>
+                    <li><a href="#ivisa" class="block px-4 py-2 hover:bg-gray-200">I Visa</a></li>
+                    <li><a href="#lvisa" class="block px-4 py-2 hover:bg-gray-200">L Visa</a></li>
+                </ul>
+            </li>
+            <li><a href="#" class="">Resources</a></li>
+            <li><a href="#" class="">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="flex-grow p-8 w-1/2 center px-auto mx-auto">
+        <!-- About Us Section -->
+        <section class="mb-12 text-gray-800">
+            <h2 class="text-3xl font-black mb-4">About Us</h2>
+            <p class="leading-relaxed">
+                International journalists struggle with a lack of connections and information when it comes to getting a newsroom job in the US.
+                That’s why we started Journalism Jobs for Internationals. Our target audience is global journalists who want to work here and newsrooms seeking to become more diverse and inclusive.
+            </p>
+            <p class="leading-relaxed mt-4">
+                Our first step is to build an informational platform of newsrooms that hire journalists with visas or will sponsor them. At this point, our list is small. We hope – with your help – to expand it. So if you know of a newsroom or newsrooms that will hire journalists with visas, please enter that information here.
+            </p>
+        </section>
+        <section class="mb-12 text-gray-800">
+            <h2 class="text-3xl font-black mb-4">How you can benefit</h2>
+            <p class="leading-relaxed">
+                Are you an international journalist or student struggling to find a newsroom job? To help journalists like you, we’ve started building a database of newsrooms willing to sponsor or hire people with visas. To access our data, you can sign up for our next online seminar <a class="underline text-blue-600" href="https://docs.google.com/forms/d/e/1FAIpQLScXrzpweyoF_lxdCdH37FCpLsWY9wQFnJnI9bzaR8Gk72FdZw/viewform" target="_blank">here</a>.
+            </p>
+        </section>
+        <section class="mb-12 text-gray-800">
+            <h2 class="text-3xl font-black mb-4">How you can help</h2>
+            <p class="leading-relaxed">
+                At this point, our list of newsrooms is small. We hope – with your help – to expand it. So if you know of a newsroom or newsrooms that will hire journalists with visas, please enter that information <a class="underline text-blue-600" href="https://docs.google.com/forms/d/e/1FAIpQLSc4OY_G8g13pJvY9ekwMgQruduQeNj99x4zlCVBcsIXqu1L2Q/viewform?usp=sf_link" target="_blank">here</a>.
+            </p>
+        </section>
+        <section class="mb-12 text-gray-800">
+            <h2 class="text-3xl font-black mb-4">Visa Information</h2>
+        
+            <!-- H1B Visa -->
+            <div class="mb-8 border-b border-gray-300" id="h1">
+                <h3 class="text-2xl font-black mb-2 cursor-pointer flex justify-between items-center" onclick="toggleAccordion('h1b-content')">
+                    H1B
+                    <span id="h1b-icon" class="transform transition-transform">&#x25BC;</span>
+                </h3>
+                <div id="h1b-content" class="hidden pb-4">
+                    <div class="py-4">
+                        <h4 class="font-bold">What is it?</h4>
+                        <p class="py-2">H-1B visa is a nonimmigrant work visa that allows U.S. employers to hire foreign workers in the U.S. for three years, which can be extended another three years.</p>
+                    </div>
+                    
+                    
+                    <div class="py-4">
+                        <h4 class="font-bold">Who is eligible?</h4>
+                        <p class="py-2">The H-1B is available to persons who are offered temporary professional positions with at least a  bachelor’s degree and equivalent knowledge by  U.S. employers. The salary of the H-1B worker must meet the prevailing wage requirement - average wage paid to similarly employed workers in a specific occupation in the area of intended employment. Read more about prevailing wages <a href="https://www.dol.gov/agencies/eta/foreign-labor/wages" target="_blank" class="underline text-blue-600">here</a>. The DOL collects wage data of different occupations</p>
+                    </div>
+                    
+                    <div class="py-4">
+                        <h4 class="font-bold">Who files the petition?</h4>
+                        <p class="py-2">The employer must file a petition on behalf of the prospective employee.</p>
+                    </div>    
+                    
+                    <div class="py-4">
+                        <h4 class="font-bold">How long does the process take?</h4>
+                        <p class="py-2">Two to eight months, depending on whether it’s a cap-exempt petition; or even longer if you get an RFE (request for further evidence).</p>
+                    </div>    
+                    
+                    <div class="py-4">
+                        <h4 class="font-bold">Cap-subject vs cap-exempt petitions:</h4>
+                        <p class="py-2">The USCIS runs a lottery every year for up to 85,000 visas, with 20,000 reserved for people with a master’s degree. Not all H-1B nonimmigrant visas (or status grants) are subject to this annual cap.  The advanced degree exemption is an exemption from the H-1B cap for beneficiaries who have earned a U.S. master’s degree or higher and is available until the number of beneficiaries who are exempt on this basis exceeds 20,000.</p>
+                        <p class="py-2">Employers that qualify as cap-exempt under the H-1B visa program are exempt from the annual numerical quota system that limits the number of H-1B visas available. This allows them to file H-1B petitions for foreign workers at any time of the year, without having to compete with other companies or worry about numerical limitations. Cap-exempt employers include: </p>
+                        <p class="py-2">Institutions of higher education: Public or nonprofit institutions that are licensed to provide education beyond secondary school, admit students who have graduated from high school, and offer bachelor's or associate's degrees </p>
+                        <p class="py-2">Nonprofit organizations: Organizations that use their earnings or contributions to achieve a mission or goal, rather than transferring them to their owners as profit. This includes organizations with religious, charitable, scientific, literary, or educational purposes. The organization must also be affiliated with an institution of higher education in some way, such as being operated by the institution or sharing ownership or control with the same board or federation </p>
+                        <p class="py-2">Nonprofit or governmental research organizations: These organizations are also exempt from the H-1B cap </p>
+                        <p class="py-2">Read more about the H-1B lottery and electronic registration process <a href="https://www.uscis.gov/working-in-the-united-states/temporary-workers/h-1b-specialty-occupations/h-1b-electronic-registration-process#:~:text=On%20Feb.%2028%2C%202024%2C%20USCIS%20will%20launch%20new%20myUSCIS,Request%20for%20Premium%20Processing%20Service" target="_blank" class="underline text-blue-600">here</a>.</p>
+                    </div>
+                    
+                    <div class="py-4">
+                        <h4 class="font-bold">Approximate cost?</h4>
+                        <p class="py-2">Cost ranges from about $3,000, which includes the basic filing fee, ACWIA fee and attorney fee,  to $12,000,which would include the previous fees plus a premium processing fee)</p>
+                    </div>
+
+                    <div class="py-4">
+                        <h4 class="font-bold">Can I transfer my H-1B to a new employer?</h4>
+                        <p class="py-2">H-1B visa holders can transfer their visa to another employer, but the new employer must file a request for an H-1B transfer petition. A transfer is usually less risky than a new petition because you don’t need to enter the lottery again and that USCIS already recognized you have a “specialty occupation” by granting you the H-1B. </p>
+                        <p class="py-2">It can take several weeks or months to complete the process, and it's recommended to wait until transfer status is granted before starting the new employment. If your current employer withdraws the H-1B they petitioned for you and the transfer gets denied, you might lose your H-1B status.</p>
+                    </div>
+                    
+                    <div class="py-4">
+                    <h4 class="font-bold">Case studies</h4>
+                        <p class="py-2">(Pending examples)</p>
+                        <p class="py-2">Does this apply to you? We'd like to talk to you. Reach out to us at <a href="mailto:journalismjobsforjobs@gmail.com" class="underline text-blue-600">journalismjobsforjobs@gmail.com</a>.</p>
+                    </div>
+                    <!-- <h4 class="font-bold">Documents required:</h4>
+                    <p>A valid job offer from a U.S. employer, passport, CV, diploma, and more.</p> -->
+                </div>
+            </div>
+                    
+            <!-- O1 Visa -->
+            <div class="mb-8 border-b border-gray-300" id="o1">
+                <h3 class="text-2xl font-black mb-2 cursor-pointer flex justify-between items-center" onclick="toggleAccordion('o1-content')">
+                    O1
+                    <span id="o1-icon" class="transform transition-transform">&#x25BC;</span>
+                </h3>
+                <div id="o1-content" class="hidden pb-4">
+                    <div class="py-4">
+                        <h4 class="font-bold">What is it?</h4>
+                        <p class="py-2">O-1 visa is an nonimmigrant work visa for individuals who possesses extraordinary ability in the sciences, education, business, or athletics (O-1A) and arts, motion picture or television industry (O-1B)</p>
+                    </div>
+
+                    <div class="py-4">
+                        <h4 class="font-bold">Who is eligible?</h4>
+                        <p class="py-2">To qualify, an individual must have achieved sustained national or international acclaim for their work, which, for journalists, can be demonstrated by authorship of articles, receiving nationally or internationally recognized awards, being invited to speak at prestigious conferences, published material about the applicant's work, judging the work of others in the field.
+                        </p>
+                    </div>
+
+                    <div class="py-4">
+                        <h4 class="font-bold">Who files the petition?</h4>
+                        <p class="py-2">Every O-1 visa petitioner requires an actual petitioner also known as a sponsor. A sponsor can be your actual employer or an agent that represents you
+                        </p>
+                    </div>
+
+                    <div class="py-4">
+                        <h4 class="font-bold">How long does the process take?</h4>
+                        <p class="py-2">Usually 4 to 6 months
+                        </p>
+                    </div>
+
+                    <div class="py-4">
+                        <h4 class="font-bold">Basic fees:</h4>
+                        <ul>
+                            <li>$1,055 (when there are employers more than 25 employees), or</li>
+                            <li>$530 (when there are employers less than 25 employees)</li>
+                        </ul>
+                    </div>
+                    <div class="py-4">
+                        <h4 class="font-bold">Other fees:</h4>
+                        <ul>
+                            <li>Premium Processing: $2,805</li>
+                            <li>Asylum Program fee:</li>
+                            <li>Ordinary applicants: $600</li>
+                            <li>Small business: $30</li>
+                            <li>Non-profits: $0</li>
+                            <li>Visa Consultation Letter (Letters of advice from professional agencies): $200-$350</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="py-4">
+                        <h4 class="font-bold">Can I transfer my O-1 to a new employer?</h4>
+                        <p class="py-2">You can transfer your O-1 Visa from one employer or agent to another. There is no limit on the number of O-1 transfer applications that can be filed.
+                        </p>
+                    </div>
+                    
+                    <div class="py-4">
+                        <h4 class="font-bold">Can I apply for an extension?</h4>
+                        <p class="py-2">The O-1 visa can only be renewed in one year increments, and the earliest one can ask for an extension is 6 months prior to the current expiration.
+                        </p>
+                    </div>
+                    
+                    <div class="py-4">
+                        <h4 class="font-bold">Case study</h4>
+                        <p class="py-2">K applied for O-1A for the first time in 2019. K started working in 2012 and was on H-1B in 2019. K’s qualifications included regional journalism awards, professional fellowships, membership to professional organizations such as IRE, speaking engagements at SRCCON and NICAR, training and mentorship at a prominent university, planning committee for professional conferences, published works at his publication, letters of support from NewsGuild.org (national, not local chapter), members of leadership of regional and national news organization, as well as international organization.
+                        </p>
+
+                        <p class="py-2">(Case studies are for reference only. Please don’t feel like you have to have the same qualifications to apply.)
+                        </p>
+                    </div>
+
+                    <!-- <div class="py-4">
+                        <h4 class="font-bold">Documents required:</h4>
+                        <p class="py-2">Passport, DS-160, appointment confirmation, and various supporting documents.</p>
+                    </div> -->
+                </div>
+            </div>
+
+            <!-- J1 Visa -->
+            <div class="mb-8 border-b border-gray-300" id="j1">
+                <h3 class="text-2xl font-black mb-2 cursor-pointer flex justify-between items-center" onclick="toggleAccordion('j1-content')">
+                    J1
+                    <span id="j1-icon" class="transform transition-transform">&#x25BC;</span>
+                </h3>
+                <div id="j1-content" class="hidden pb-4">
+                    <div class="py-4">
+                        <h4 class="font-bold">What is it?</h4>
+                        <p class="py-2">The J-1 classification (exchange visitors) is authorized for those who intend to participate in an approved program for the purpose of teaching, instructing or lecturing, studying, observing, conducting research, consulting, demonstrating special skills, receiving training, or to receive graduate medical education or training. 
+                        </p>
+                    </div>
+
+                    <div class="py-4">
+                        <h4 class="font-bold">Case study</h4>
+                        <p class="py-2">(Pending examples)</p>
+                        <p class="py-2">Does this apply to you? We’d like to talk to you. Reach out to us at <a href="mailto:journalismjobsforjobs@gmail.com" class="underline text-blue-600">journalismjobsforjobs@gmail.com</a>.</p>
+                    </div>
+
+                    <div class="py-4">
+                        <h4 class="font-bold">Approximate cost?</h4>
+                        <ul>
+                            <li>Application fee: $185</li>
+                            <li>SEVIS fee: $220</li>
+                            <li>Shipping fee: depends on local delivery</li>
+                        </ul>
+                    </div>
+
+                    <div class="py-4">
+                        <h4 class="font-bold">Documents required:</h4>
+                        <ul>
+                            <li>DS-2019</li>
+                            <li>SEVIS</li>
+                            <li>DS-160</li>
+                            <li>Interview</li>
+                            <li>Appointment</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- I Visa -->
+            <div class="mb-8 border-b border-gray-300" id="ivisa">
+                <h3 class="text-2xl font-black mb-2 cursor-pointer flex justify-between items-center" onclick="toggleAccordion('i-content')">
+                    I Visa
+                    <span id="i-icon" class="transform transition-transform">&#x25BC;</span>
+                </h3>
+                <div id="i-content" class="hidden pb-4">
+                    <div class="py-4">
+                        <h4 class="font-bold">What is it?</h4>
+                        <p class="py-2">I visa is for representatives of the foreign media, including members of the press, radio, film, and print industries.
+                        </p>
+                        <p class="py-2">The individual may only participate in informational or educational activities, essential to the foreign media function. Activities in the United States while on a media (I) visa must be for a media organization with a home office outside of the United States. Activities in the United States must be informational in nature and generally associated with the news gathering process and reporting on current events.
+                        </p>
+                    </div>
+
+                    <div class="py-4">
+                        <h4 class="font-bold">Case study</h4>
+                        <p class="py-2">(Pending examples)</p>
+                        <p class="py-2">Does this apply to you? We’d like to talk to you. Reach out to us at <a href="mailto:journalismjobsforjobs@gmail.com" class="underline text-blue-600">journalismjobsforjobs@gmail.com</a>.</p>
+                    </div>
+
+                    <div class="py-4">
+                        <h4 class="font-bold">Approximate cost?</h4>
+                        <ul>
+                            <li>Application fee: $185</li>
+                            <li>Insurance fee (varies depend on the nationality)</li>
+                            <li>Check <a href="https://travel.state.gov/content/travel/en/us-visas/employment/visas-members-foreign-media-press-radio.html#:~:text=Overview,to%20work%20in%20their%20profession." target="_blank" class="underline text-blue-600">here</a> for the insurance fee depend on your nationality</li>
+                        </ul>
+                    </div>
+
+                    <div class="py-4">
+                        <h4 class="font-bold">Documents required:</h4>
+                        <ul>
+                            <li>Passport </li>
+                            <li>Nonimmigrant Visa Application, DS-160 confirmation page</li>
+                            <li>Application fee payment receipt</li>
+                            <li>Photo </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- L Visa -->
+            <div class="mb-8 border-b border-gray-300" id="lvisa">
+                <h3 class="text-2xl font-black mb-2 cursor-pointer flex justify-between items-center" onclick="toggleAccordion('l-content')">
+                    L Visa
+                    <span id="l-icon" class="transform transition-transform">&#x25BC;</span>
+                </h3>
+                <div id="l-content" class="hidden pb-4">
+                    <div class="py-4">
+                        <h4 class="font-bold">What is it?</h4>
+                        <p class="py-2">The L-1 visa is a non-immigrant visa category in the United States that is designed for intracompany transferees. The L1 visa classification is divided into two separate visa classifications, L-1A for managers and executives and L-1B for an employee in a specialized knowledge capacity.</p>
+                    </div>
+
+                    <div class="py-4">
+                        <h4 class="font-bold">Who is eligible?</h4>
+                        <p class="py-2"><strong>L1-A Managerial and Executive:</strong> The L1-A is the classification for intra-company transferees who are coming to the United States to work in a managerial or executive capacity.</p>
+                        <p class="py-2">Managerial capacity means an assignment within an organization in which the employee primarily: </p>
+                        <ol class="py-2 list-decimal pl-6">
+                            <li>manages the organization, or a department, subdivision, function, or component of the organization; </li>
+                            <li>Supervises and controls the work of other supervisory, professional, or managerial employees, or manages an essential function within the organization, or a department or subdivision of the organization; </li>
+                            <li>Has the authority to hire and fire or recommend those as well as other personnel actions, or if not directly supervising employees, functions at a senior level within the organizational hierarchy or function managed, and </li>
+                            <li>Exercises discretion over the day to day operations of the function for which the employee has authority.  </li>
+                        </ol>
+
+                        <p class="py-2">Executive Capacity means an assignment within the organization in which the employee: </p>
+                        <ol class="py-2 list-decimal pl-6">
+                            <li>Directs the management of the organization or a major component or function of the organization; </li>
+                            <li>Establishes goals and policies; </li>
+                            <li>Exercises wide latitude in discretionary decision making; </li>
+                            <li>and Receives only general supervision or direction from higher level executives, the board of directors, or stockholders of the organization.  </li>
+                        </ol>
+                        <p class="py-2"><strong>Maximum period of stay:</strong> An L-1A has a maximum stay in the U.S. of seven years.</p>
+                        <p class="py-2"><strong>L-1B Specialized Knowledge:</strong> The L-1B is the classification for intra-company transferees who are coming to the United States to work in a specialized knowledge capacity.  </p>
+                        <p class="py-2">Specialized Knowledge Capacity is defined as specialized knowledge possessed by an individual of the petitioning organization’s product, service, research, equipment, techniques, management, or other interests and its application in international markets, or an advanced level of knowledge or expertise in the organization’s processes and procedures.  </p>
+                        <p class="py-2"><strong>Maximum period of stay:</strong> An L-1B has a maximum stay in the U.S. of five years.</p>
+                    </div>
+
+                    <div class="py-4">
+                        <h4 class="font-bold">Case Study</h4>
+                        <p class="py-2">(Pending examples)</p>
+                        <p class="py-2">Does this apply to you? We'd like to talk to you. Reach out to us at <a href="mailto:journalismjobsforjobs@gmail.com" class="underline text-blue-600">journalismjobsforjobs@gmail.com</a>.</p>
+                    </div>
+
+                    <div class="py-4">
+                        <h4 class="font-bold">Approximate cost?</h4>
+                        <p class="py-2"><strong>USCIS L1 Visa Fees:</strong></p>
+                        <ul class="py-2 list-disc pl-6">
+                            <li>I-129 Filing Fee: $460</li>
+                            <li>Fraud Prevention and Detection Fee: $500</li>
+                            <li>Optional Premium Processing Fee: $2,500</li>
+                            <li>Public Law 114-113 Fee: $4,500 (only applies if the business employs more than 50 people and half of those employees <strong class="bg-red-400">ARE WHAT???</strong>)</li>
+                        </ul>
+                        <p class="py-2"><strong>US State Department Visa Issuance Fees:</strong></p>
+                        <ul class="py-2 list-disc pl-6">
+                            <li>Visa Application Fee (DS160): $190</li>
+                            <li>Visa reciprocity fee (Varies by Country)</li>
+                        </ul>
+                    </div>
+
+                    <div class="py-4">
+                        <h4 class="font-bold">Documents required</h4>
+                        <ul class="py-2 list-disc pl-6">
+                            <li>Original passport</li>
+                            <li>Photocopies of the passport information page and extension page</li>
+                            <li>Visa Application Form</li>
+                        </ul>
+                        <p class="py-2"><strong>Additional Application Requirements:</strong></p>
+                        <ul class="py-2 list-disc pl-6">
+                            <li>The company must be a multinational corporation operating in the U.S. and another country with bona fide offices.</li>
+                            <li>The employee must have worked for the company for at least one year.</li>
+                            <li>L-1A visa applicants must hold a senior management or executive position.</li>
+                            <li>L-1B visa applicants must hold a specialized position and possess specialized skills.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Section 2: Exploring Job Opportunities in Journalism -->
+        <!-- <section class="mb-12">
+            <h2 class="text-3xl font-black mb-4">Exploring Job Opportunities in Journalism</h2>
+            <p>Explore different types of journalism jobs, where to find job listings, and how to prepare for interviews.</p>
+            <a href="#" class="text-blue-600 underline">Link to our repository (Sign up page)</a>
+        </section> -->
+
+        <!-- Section 3: Additional Resources -->
+        <section class="mb-12">
+            <h2 class="text-3xl font-black mb-4">Resources (to come)</h2>
+            <p class="py-2">Find networking tips, professional organizations, and other helpful websites.</p>
+        </section>
+
+        <section class="mb-12">
+            <h2 class="text-3xl font-black mb-4">Contact</h2>
+            <p class="py-2">Reach out to us at <a href="mailto:journalismjobsforjobs@gmail.com" class="underline text-blue-600">journalismjobsforjobs@gmail.com</a>.</p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white p-4 w-full center px-auto mx-auto bg-slate-700 text-white mt-4 flex justify-center">
+        <!-- <div class="container mx-auto flex justify-between"> -->
+            <span class="p-4">
+                <a href="https://journalismjobsforinternationals.com/">Journalism Jobs for Internationals</a> is maintained by volunteers.
+            </span>
+        <!-- </div> -->
+    </footer>
+    <script>
+    function toggleAccordion(contentId) {
+        const content = document.getElementById(contentId);
+        const icon = document.querySelector(`#${contentId}-icon`);
+        
+        if (content.classList.contains('hidden')) {
+            content.classList.remove('hidden');
+            icon.style.transform = 'rotate(180deg)';
+        } else {
+            content.classList.add('hidden');
+            icon.style.transform = 'rotate(0deg)';
+        }
+    }
+</script>
 </body>
 </html>
